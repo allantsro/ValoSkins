@@ -94,6 +94,19 @@ p{
 	background:#FFA07A;
 }
 
+.add-to-cart{
+	display: inline-block;
+	background: #FF0000;
+	color: #fff;
+	padding: 10px 25px;
+	margin: 25px 0;
+	border-radius: 30px;
+	transition:background 0.5s;
+}
+.add-to-cart:hover{
+	background:#FFA07A;
+}
+
 .add-cart{
 	display: inline-block;
 	background: #FF0000;
