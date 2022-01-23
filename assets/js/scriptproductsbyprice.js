@@ -2,26 +2,32 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [
 	{
-		name: 'BlastX Phantom',
-		tag: 'blastxphantom',
-		price: 600.00,
-		inCart: 0
-	},
-	{
-		name: "Glitchpop Frenzy",
-		tag: "glitchpopfrenzy",
+		name: 'Glitchpop Frenzy',
+		tag: 'glitchpopfrenzy',
 		price: 500.00,
 		inCart: 0
 	},
 	{
-		name: "Glitchpop Phantom",
-		tag: "glitchpopphantom",
-		price: 800.00,
+		name: "BlastX Phantom",
+		tag: "blastxphantom",
+		price: 600.00,
 		inCart: 0
 	},
 	{
 		name: "Glitchpop Vandal",
 		tag: "glitchpopvandal",
+		price: 600.00,
+		inCart: 0
+	},
+	{
+		name: "Ion Phantom",
+		tag: "ionphantom",
+		price: 600.00,
+		inCart: 0
+	},
+	{
+		name: "Reaver Sheriff",
+		tag: "reaversheriff",
 		price: 600.00,
 		inCart: 0
 	},
@@ -32,15 +38,9 @@ let products = [
 		inCart: 0
 	},
 	{
-		name: "Ion Phantom",
-		tag: "ionphantom",
-		price: 600.00,
-		inCart: 0
-	},
-	{
-		name: "Oni Claw",
-		tag: "oniclaw",
-		price: 1500.00,
+		name: "Singularity Sheriff",
+		tag: "singularitysheriff",
+		price: 650.00,
 		inCart: 0
 	},
 	{
@@ -50,8 +50,26 @@ let products = [
 		inCart: 0
 	},
 	{
+		name: "Reaver Vandal",
+		tag: "reavervandal",
+		price: 700.00,
+		inCart: 0
+	},
+	{
+		name: "Glitchpop Phantom",
+		tag: "glitchpopphantom",
+		price: 800.00,
+		inCart: 0
+	},
+	{
+		name: "Sovereign Ghost",
+		tag: "sovereignghost",
+		price: 800.00,
+		inCart: 0
+	},
+	{
 		name: "Prime Phantom",
-		tag: "primephantom",
+		tag: "reaveroperator",
 		price: 900.00,
 		inCart: 0
 	},
@@ -62,39 +80,21 @@ let products = [
 		inCart: 0
 	},
 	{
-		name: "Reaver Knife",
-		tag: "reaverknife",
-		price: 1300.00,
-		inCart: 0
-	},
-	{
-		name: "Reaver Operator",
-		tag: "reaveroperator",
-		price: 1000.00,
-		inCart: 0
-	},
-	{
-		name: "Reaver Vandal",
-		tag: "reavervandal",
-		price: 700.00,
-		inCart: 0
-	},
-	{
-		name: "Singularity Sheriff",
-		tag: "singularitysheriff",
-		price: 650.00,
-		inCart: 0
-	},
-	{
 		name: "Spectrum Classic",
 		tag: "spectrumclassic",
 		price: 900.00,
 		inCart: 0
 	},
 	{
-		name: "Sovereign Ghost",
-		tag: "sovereignghost",
-		price: 800.00,
+		name: "Valorant GO! Knife",
+		tag: "valorantgoknife",
+		price: 950.00,
+		inCart: 0
+	},
+	{
+		name: "Elderflame Vandal",
+		tag: "elderflamevandal",
+		price: 1000.00,
 		inCart: 0
 	},
 ];
